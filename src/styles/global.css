@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@config "../../tailwind.config.cjs";
+
+body {
+  @apply font-pixel;
+}
