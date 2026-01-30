@@ -5,7 +5,7 @@ export default function PixelButton({ text = "START", onClick = () => {} }) {
       className="
         relative
         px-6 py-3
-        bg-yellow-400
+        bg-indigo-500
         text-black font-bold
         text-lg
         border-4 border-black
@@ -13,9 +13,10 @@ export default function PixelButton({ text = "START", onClick = () => {} }) {
         active:shadow-none
         active:translate-x-[4px]
         active:translate-y-[4px]
-        hover:bg-yellow-300
+        hover:bg-indigo-400
         transition-all
         select-none
+ 
       "
       style={{
         imageRendering: "pixelated",
